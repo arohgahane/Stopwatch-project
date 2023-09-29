@@ -1,0 +1,62 @@
+.container{
+    /* background-color: blue; */
+    background-image: url(../img/stopwatch3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    color:brown ;
+    border: 15px solid cornflowerblue;
+    border-radius: 20px;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.hr{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.min{
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.button{
+
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 700;
+    color: darkblue;
+    /* width: 60px; */
+    letter-spacing: 2px;
+    
+}
+
+.start{
+    background-color: rgb(172, 236, 172);
+    /* background-image: url(../img/start.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.stop{
+    background-color: rgb(232, 47, 47);
+
+}
+
+.reset{
+    background-color: rgb(229, 229, 95);
+}
